@@ -44,5 +44,3 @@ In this project we have used the following tech stack.
 # Demo 🎥
 
 [Vistarooms_clone](https://drive.google.com/file/d/17HNKYVQIqDkWk6Fdv-dWfhv-McpYYQ2b/view)
-
-# Team Members and Contributors 😇
