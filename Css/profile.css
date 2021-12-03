@@ -1,0 +1,33 @@
+.details {
+    width: 60%;
+    margin: auto;
+}
+
+
+.form-label {
+    color: #3d3c3c;
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #8a8a8f !important;
+}
+
+.c_button1 {
+    width: 35%;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 3.5px;
+    background: #df495b;
+    font-size: 15px;
+    padding: 7px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+.c_button1:hover {
+    background: #ff5267;
+    color: rgba(255, 255, 255, 0.89);
+}

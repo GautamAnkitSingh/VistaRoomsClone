@@ -1,0 +1,97 @@
+/* navbar styling start */
+.navbar {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 16%);
+}
+
+a {
+  outline: none;
+}
+
+.nav-item a:hover {
+  background-color: #d1d1d4 !important;
+}
+
+#ULnavitems {
+  margin-left: 70px !important;
+}
+
+#ULnavitems>li {
+  margin-right: 10px !important;
+  padding: 0 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #d1d1d4 !important;
+}
+
+/* navbar styling end */
+
+.dropdown-menu {
+  margin-top: 0;
+}
+
+.dropdown-menu .dropdown-toggle::after {
+  vertical-align: middle;
+  border-left: 4px solid;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+}
+
+.dropdown-menu .dropdown .dropdown-menu {
+  left: 100%;
+  top: 0%;
+  margin: 0 20px;
+  border-width: 0;
+}
+
+.dropdown-menu .dropdown .dropdown-menu.left {
+  right: 100%;
+  left: auto;
+}
+
+.dropdown-menu>li a:hover,
+.dropdown-menu>li.show {
+  background: #007bff;
+  color: white;
+}
+
+.dropdown-menu>li.show>a {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .dropdown-menu .dropdown .dropdown-menu {
+    margin: 0;
+    border-width: 1px;
+  }
+}
+
+.c_button {
+  width: 100%;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 3.5px;
+  background: #df495b;
+  font-size: 17px;
+  padding: 5px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+}
+
+.c_button:hover {
+  background: #ff5267;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.modal_p {
+  font-size: 14px;
+}
+
+.modal_p span,
+.signup_P a {
+  cursor: pointer;
+  color: #df495b !important;
+  font-weight: 500;
+}

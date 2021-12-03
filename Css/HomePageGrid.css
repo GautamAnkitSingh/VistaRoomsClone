@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Red Hat Text", sans-serif;
+}
+
+#dubai-x {
+    margin: 5% auto;
+    width: 75%;
+    cursor: pointer;
+}
+
+#dubai-x img {
+    width: 100%;
+    height: auto;
+}
+
+#Vista-Feature {
+    margin: 5% 0;
+    width: 100%;
+    height: 45vh;
+    background-color: #f7f7f7;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 2%;
+}
+
+.feature-flex {
+    margin: 3% auto;
+    width: 75%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #f7f7f7;
+}
+
+.feature>div:first-child {
+    margin: auto;
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 40%;
+}
+
+.feature img {
+    height: 100%;
+    width: 100%;
+}
+
+#faltu-details {
+    margin: 5% auto;
+    width: 75%;
+    text-align: center;
+}
+
+#faltu-details p {
+    margin-top: 2%;
+    font-weight: lighter;
+}
+
+#homepagegrid {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "s1 s1 s2 s3"
+        "s4 s5 s6 s6"
+        "s7 s7 s8 s9";
+}
+
+#content-1 {
+    grid-area: s1;
+}
+
+#content-2 {
+    grid-area: s2;
+}
+
+#content-3 {
+    grid-area: s3;
+}
+
+#content-4 {
+    grid-area: s4;
+}
+
+#content-5 {
+    grid-area: s5;
+}
+
+#content-6 {
+    grid-area: s6;
+}
+
+#content-7 {
+    grid-area: s7;
+}
+
+#content-8 {
+    grid-area: s8;
+}
+
+#content-9 {
+    grid-area: s9;
+}
+
+
+.card-x {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card-x img {
+    object-fit: cover;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: white;
+    /* Black see-through */
+    color: black;
+    width: 100%;
+    transition: .5s ease-in;
+    opacity: 0;
+    font-size: 18px !important;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay>div:first-child {
+    text-align: left;
+    padding: 10px;
+}
+
+.overlay>div:last-child {
+    text-align: right;
+    padding: 10px;
+}
+
+.overlay div>p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 5px;
+}
+
+.overlay div>h4,
+h6 {
+    margin: 5px;
+    font-size: 19px !important;
+}
+
+.card-x:hover .overlay {
+    opacity: 1;
+}
