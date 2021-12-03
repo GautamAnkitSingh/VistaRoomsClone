@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Villa Rooms</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.vistarooms.com/assets/desktop/fav/favicon.ico"
+    />
+    <link rel="stylesheet" href="/Css/bootnavbar.css">
+    <link rel="stylesheet" href="/Css/CityPage.css">
+      
+  </head>
+  <body>
+    <!-- Navbar start  -->
+     <nav class="navbar navbar-expand-lg bg-white sticky-top  p-0" id="main_navbar">
+      <div class="container-fluid  px-5 pt-2">
+        <a class="navbar-brand px-5 mx-5" href="/index.html"
+          ><img
+            class="me-5 pe-5"
+            src="https://www.vistarooms.com/assets/desktop/RED.svg"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="
+            collapse
+            navbar-collapse
+            d-flex
+            justify-content-around
+            pt-1
+            pb-3
+          "
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 " id="ULnavitems">
+            <li class="nav-item dropdown px-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                CITIES
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    U.A.E &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dubai Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Maharashtra&emsp; &emsp; &emsp; &nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Lonavala Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Panwel Villas</a></li>
+                    <li><a class="dropdown-item" href="#">Pune Villas</a></li>
+                    <li><a class="dropdown-item" href="#">Karjat Villas</a></li>
+                    <li><a class="dropdown-item" href="#">Nasik Villas</a></li>
+                    <li><a class="dropdown-item" href="#">Mumbai Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Delhi &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">New Delhi Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Gurgaram Villas</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Goa &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Goa Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">North Goa Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">South Goa Villas</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Himachal-Pradesh &emsp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./CityPage.html">Shimla Villas</a></li>
+                    <li><a class="dropdown-item" href="./CityPage.html">Manali Villas</a></li>
+                    <li><a class="dropdown-item" href="./CityPage.html">Kullu Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Punjab
+                    &emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Chandigarh Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Amritsar Villas</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Uttarakhand &emsp;&emsp;&emsp;&ensp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Nanital Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Musoorie Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Dehradun Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Rani-Khet Villas</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Karnataka &emsp;&emsp;&emsp;&ensp;&emsp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Coorg Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Banglore Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Mysore Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Kerela &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kochi Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Wyanand Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ALipe Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Tamil Nadu &emsp;&emsp;&emsp;&emsp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kochi Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Wyanand Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ALipe Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Gujrat &emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kochi Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Wyanand Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ALipe Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Rajashthan &emsp;&emsp;&emsp;&emsp;&ensp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kochi Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Wyanand Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ALipe Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Sikkim &emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kochi Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Wyanand Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ALipe Villas</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown px-3">
+              <a
+                class="nav-link dropdown-toggle link-dark"
+                href="#"
+                id="navbarDropdown2"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                EXPLORE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/Assets/Events.html" target="_blank">Plan an event</a></li>
+                <li><a class="dropdown-item" href="#">Corporate Offsite</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" aria-current="page" href="#"
+                >PARTNER WITH US</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">
+                <img
+                  src="https://www.vistarooms.com/assets/desktop/images/discount_black.svg"
+                  alt=""
+                  width="20"
+                />
+                OFFERS
+              </a>
+            </li>
+            <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="signIn"
+            data-bs-toggle="modal"
+            data-bs-target="#LoginModal"
+          >
+            <img
+              src="https://www.vistarooms.com/assets/desktop/images/user_icon_black.svg"
+              alt=""
+            />
+            Login
+          </button>
+          <div class="dropdown">
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="signout"
+            id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false"
+            style="display: none"
+          >
+            <img
+              src="https://www.vistarooms.com/assets/desktop/images/user_icon_black.svg"
+              alt=""
+            />
+            SignOut
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+            <li><a class="dropdown-item" target="_blank" href="./profile.html">Profile</a></li>
+            <li><a class="dropdown-item" href="#" onclick="signout()">Log Out</a></li>
+          </ul>
+        </div>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end  -->
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content px-4">
+          <div class="modal-header border-0 px-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-0 ">
+            <h5 class="modal-title mb-3" id="exampleModalLabel">Login with mobile number</h5>
+            <form onsubmit="loginUser(event)">
+              <div class="mb-3">
+                <label for="login_email" class="form-label">Email</label>
+                <input type="email" id="login_email" class="form-control" required placeholder="Enter email">
+              </div>
+              <div class="mb-3">
+                <label for="login_pass" class="form-label">Password</label>
+                <input type="password" id="login_pass" class="form-control" required placeholder="Enter password">
+              </div>
+              <p class="modal_p">By continuing, I agree to the <span>T&C</span> and <span>Privacy Policy</span> of Vista Rooms.</p>
+              <button type="submit" class="c_button my-2">Continue</button>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-start ">
+            <p class="signup_P my-2">Don't have an account?<span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#SignupModal" data-bs-dismiss="modal"> SignUp</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- login modal end  -->
+
+    <!-- sign up modal start -->
+    <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content px-4">
+          <div class="modal-header border-0 px-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-0 ">
+            <h5 class="modal-title mb-3" id="exampleModalLabel">Join Vista Rooms</h5>
+            <p>*indicates mandatory field</p>
+            <form onsubmit="addUser(event)">
+              <div class="mb-3">
+                <label for="f_name" class="form-label">First Name*</label>
+                <input type="text" id="f_name" class="form-control" required placeholder="Enter your first name">
+              </div>
+              <div class="mb-3">
+                <label for="l_name" class="form-label">Last Name*</label>
+                <input type="text" id="l_name" class="form-control" required placeholder="Enter your last name">
+              </div>
+              <div class="mb-3">
+                <label for="mobile" class="form-label">Mobile Number*</label>
+                <input type="text" id="mobile" class="form-control" required placeholder="Enter your mobile number">
+              </div>
+              <div class="mb-3">
+                <label for="u_email" class="form-label">Email ID*</label>
+                <input type="email" id="u_email" class="form-control" required placeholder="Enter your email ID">
+              </div>
+              <div class="mb-3">
+                <label for="u_pass" class="form-label">Password*</label>
+                <input type="password" id="u_pass" class="form-control" required placeholder="Enter your password">
+              </div>
+              <div class="mb-3">
+                <label for="res_city" class="form-label">Residential City*</label>
+                <input type="text" id="res_city" class="form-control" required placeholder="Enter your residential city">
+              </div>
+              <p class="modal_p">By continuing, I agree to the <span>T&C</span> and <span>Privacy Policy</span> of Vista Rooms.</p>
+              <button type="submit" class="c_button my-2">Continue</button>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-start ">
+            <p class="signup_P my-2">Already have an account?<span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#LoginModal" data-bs-dismiss="modal"> Login</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sign up modal end -->
+
+    <!-- sticky nav start -->
+    <section class="sticky_nav  bg-white">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 text-capitalize"
+            style="
+              margin-bottom: 9px;
+              color: #535353;
+              padding-left: 5px;
+              font-size: 14px;
+            "
+          >
+            <a href="" style="text-decoration: none; color: #888888">Home ></a>
+            <span class="pl-1">Villas in Shimla</span>
+          </div>
+          <div class="px-1 col-3">
+            <div class="search-bar">
+              <input
+                type="text"
+                class="w-100 text-start text-capitalize input-group-text"
+                placeholder="Shimla, Himachal Pradesh"
+              />
+            </div>
+          </div>
+          <div class="px-1 col-3">
+            <input
+              type="text"
+              placeholder="Check-in/Check-out"
+              class="w-100 text-start text-capitalize input-group-text"
+            />
+          </div>
+          <div class="px-1 col-2">
+            <div class="w-100">
+              <input
+                type="text"
+                name=""
+                class="w-100 text-start text-capitalize input-group-text"
+                id=""
+                placeholder="Filters"
+              />
+            </div>
+          </div>
+          <div class="px-1 col-2">
+            <div class="w-100">
+              <input
+                type="button"
+                data-bs-toggle="modal" data-bs-target="#RangeModal"
+                name=""
+                class="w-100 text-start text-capitalize input-group-text"
+                id=""
+                value="Range"
+              />
+            </div>
+          </div>
+          <div class="px-1 col-2">
+            <select
+              name=""
+              id="sortby"
+              placeholder=""
+              onchange="run()"
+              class="input-group-text text-start"
+              style="
+                font-size: 18px;
+                background: rgb(143, 128, 128);
+                appearance: none;
+              "
+            >
+              <option value="normal">Sort By</option>
+              <option value="ltoh">Price - Low to High</option>
+              <option value="htol">Price - High to Low</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sticky nav end -->
+
+
+    <!-- Range Modal Stat-->
+    <div class="modal fade" id="RangeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content px-4">
+          <div class="modal-header border-0 px-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-0 ">
+            <h5 class="modal-title mb-3" id="exampleModalLabel">Filter Villas By Range</h5>
+            <form onsubmit="filterRange(event)">
+              <div class="mb-3">
+                <label for="login_email" class="form-label font-17 fw-bold">Price Range(1,000 to 1,00,000)</label>
+                <span id="rangeValue">0</span>
+                <input type="range" class="c_range" value="0" min="1000" max="100000"  onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
+              </div>
+              <button type="submit" class="c_button my-2" style="width: 40%; float: right;" data-bs-dismiss="modal">Apply Changes</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Range modal end  -->
+
+
+    <!-- Dynamically villa data show start -->
+    <div id="main">
+      <h3>Shimla, Himachal Pradesh</h3>
+      <p>Explore the best villas around.</p>
+      <div id="container-fluid">
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+          id="card_holder"
+        ></div>
+      </div>
+    </div>
+    <!-- Dynamically villa data show end -->
+
+    <!-- Footer start  -->
+    <section class="mt-5" style="background-color: #F9F9F9; border-bottom: 1px solid #00000014;">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <!-- p1-16-redhat-medium -->
+                      <li class="">
+                          <h6 class="mt-4 pt-4"> POPULAR DESTINATION TO RENT A HOLIDAY HOME IN INDIA </h6>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row mt-2 pb-3">
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="">Bungalows in Lonavala</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href=""> Bungalows in Igatpuri</a>
+                      </li>
+                      <li class="mt-3">
+                          <a href="" target="_blank"  class="">Bungalows in Alibaug</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Bungalows in Karjat</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Bungalows in Ahmedabad</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="">Cottages in Manali</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Cottages in Mussoorie</a>
+                      </li>
+                      <li class="mt-3">
+                          <a href="" target="_blank"  class="">Cottages in Shimla</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Cottages in Coorg</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Cottages in Wayanad</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="">Luxury Villas in Bangalore</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Luxury villas in Kochi</a>
+                      </li>
+                      <li class="mt-3">
+                          <a href="" target="_blank"  class="">Luxury Villas in Goa</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Luxury Villas in Chennai</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Luxury Villas in Kasauli</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="">Homestay in Ooty</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Homestay in Kodaikanal</a>
+                      </li>
+                      <li class="mt-3">
+                          <a href="" target="_blank"  class="">Homestay in Jaipur</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Homestay in Udaipur</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Homestay in Gangtok</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </div>
+    </section>
+    <section class="main-footer" style="background-color: #F9F9F9; border-bottom: 1px solid #00000014;">
+      <div class="container">
+          <div class="row pt-30 pb-35">
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="custom_links">
+                          <a>QUICK LINKS</a>
+                      </li>
+                  </ul>
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="/offers">Offers</a>
+                      </li>
+                      <li class="mt-2">
+                          <a target="_blank" class="" href="/faq"> FAQs</a>
+                      </li>
+                      <li class="mt-2">
+                          <a href="https://www.vistarooms.com/blog/" target="_blank" rel="noopener" class="">Blogs</a>
+                      </li>
+                      <li class="mt-2">
+                          <a target="_blank" class="" href="/termsofservices">Terms &amp; Services</a>
+                      </li>
+                      <li class="mt-2">
+                          <a target="_blank" class="" href="/sitemap">Sitemap</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <!-- p1-16-redhat-medium -->
+                      <li class="custom_links">
+                          <a>CONTACT US</a>
+                      </li>
+                  </ul>
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="/partner-with-us">Partner With Us</a>
+                      </li>
+                      <li class="mt-2">
+                          <a target="_blank" class="" href="/connect-with-us">Connect With Us</a>
+                      </li>
+                      <li class="mt-2">
+                          <a href="mailto:partnership@vistarooms.com" class="">partnership@vistarooms.com</a>
+                      </li>
+                      <li class="mt-2">
+                          <a href="mailto:stay@vistarooms.com" class="">stay@vistarooms.com</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="custom_links">
+                          <a>VISTA CULTURE</a>
+                      </li>
+                  </ul>
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="/about-us">About us</a>
+                      </li>
+                      <li class="mt-2">
+                          <a target="_blank" class="" href="/join-us">Join Us</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  
+              </div>
+          </div>
+      </div>
+    </section>
+<!-- © 2021 Stay Vista Pvt. Ltd. All rights reserved -->
+    <footer>
+      <section id="last-section-pink">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 pt-2">
+                    <h6 class=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2021 Stay Vista Pvt. Ltd. All rights reserved</h6>
+                </div>
+                <div class="col-6" style="text-align: end;">
+                    <a href="https://www.instagram.com/vistarooms/" target="_blank">
+                        <button class="btn scroll-btn">
+                            <i class="fa fa-instagram"></i>
+                        </button>
+                    </a>
+                    <a href="https://twitter.com/Vista_Rooms" target="_blank">
+                        <button class="btn scroll-btn">
+                            <i class="fa fa-twitter"></i>
+                        </button>
+                    </a>
+                    <a href="https://www.facebook.com/vistarooms/" target="_blank">
+                        <button class="btn scroll-btn">
+                            <i class="fa fa-facebook-f"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Footer end  -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/Js/bootnavbar.js"></script>
+    <script src="/Js/CityPage.js"></script>
+    <script src="/Js/loginsignup.js"></script>
+    <script src="/Js/bootnavbar.js"></script>
+    <script>
+      new bootnavbar();
+    </script>
+  </body>
+</html>
