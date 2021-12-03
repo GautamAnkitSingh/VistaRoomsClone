@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vista Rooms</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.vistarooms.com/assets/desktop/fav/favicon.ico"
+    />
+  <link rel="stylesheet" href="/Css/index.css">
+  <link rel="stylesheet" href="/Css/bootnavbar.css">
+  <link rel="stylesheet" href="/Css/HomePageGrid.css">
+  </head>
+  <body>
+
+    <!-- new nav  -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top  p-0" id="main_navbar">
+      <div class="container-fluid px-5 pt-2">
+        <a class="navbar-brand px-5 mx-5" href="./index.html"
+          ><img
+            class="me-5 pe-5"
+            src="https://www.vistarooms.com/assets/desktop/RED.svg"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="
+            collapse
+            navbar-collapse
+            d-flex
+            justify-content-around
+            pt-1
+            pb-3
+          "
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 " id="ULnavitems">
+            <li class="nav-item dropdown px-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                CITIES
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    U.A.E &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dubai Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Maharashtra&emsp; &emsp; &emsp; &nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Lonavala Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Panwel Villas</a></li>
+                    <li><a class="dropdown-item" href="#">Pune Villas</a></li>
+                    <li><a class="dropdown-item" href="#">Karjat Villas</a></li>
+                    <li><a class="dropdown-item" href="#">Nasik Villas</a></li>
+                    <li><a class="dropdown-item" href="#">Mumbai Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Delhi &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">New Delhi Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Gurgaram Villas</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Goa &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Goa Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">North Goa Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">South Goa Villas</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Himachal-Pradesh &emsp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./Assets/CityPage.html">Shimla Villas</a></li>
+                    <li><a class="dropdown-item" href="./Assets/CityPage.html">Manali Villas</a></li>
+                    <li><a class="dropdown-item" href="./Assets/CityPage.html">Kullu Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Punjab
+                    &emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Chandigarh Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Amritsar Villas</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Uttarakhand &emsp;&emsp;&emsp;&ensp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Nanital Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Musoorie Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Dehradun Villas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Rani-Khet Villas</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Karnataka &emsp;&emsp;&emsp;&ensp;&emsp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Coorg Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Banglore Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Mysore Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Kerela &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kochi Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Wyanand Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ALipe Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Tamil Nadu &emsp;&emsp;&emsp;&emsp;&nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kochi Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Wyanand Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ALipe Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Gujrat &emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kochi Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Wyanand Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ALipe Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Rajashthan &emsp;&emsp;&emsp;&emsp;&ensp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kochi Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Wyanand Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ALipe Villas</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Sikkim &emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kochi Villas</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Wyanand Villas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">ALipe Villas</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown px-3">
+              <a
+                class="nav-link dropdown-toggle link-dark"
+                href="#"
+                id="navbarDropdown2"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                EXPLORE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/Assets/Events.html" target="_blank">Plan an event</a></li>
+                <li><a class="dropdown-item" href="#">Corporate Offsite</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" aria-current="page" href="#"
+                >PARTNER WITH US</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">
+                <img
+                  src="https://www.vistarooms.com/assets/desktop/images/discount_black.svg"
+                  alt=""
+                  width="20"
+                />
+                OFFERS
+              </a>
+            </li>
+            <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="signIn"
+            data-bs-toggle="modal"
+            data-bs-target="#LoginModal"
+          >
+            <img
+              src="https://www.vistarooms.com/assets/desktop/images/user_icon_black.svg"
+              alt=""
+            />
+            Login
+          </button>
+          <div class="dropdown">
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="signout"
+            id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false"
+            style="display: none"
+          >
+            <img
+              src="https://www.vistarooms.com/assets/desktop/images/user_icon_black.svg"
+              alt=""
+            />
+            SignOut
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+            <li><a class="dropdown-item" target="_blank" href="Assets/profile.html">Profile</a></li>
+            <li><a class="dropdown-item" href="#" onclick="signout()">Log Out</a></li>
+          </ul>
+        </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar end  -->
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content px-4">
+          <div class="modal-header border-0 px-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-0 ">
+            <h5 class="modal-title mb-3" id="exampleModalLabel">Login with mobile number</h5>
+            <form onsubmit="loginUser(event)">
+              <div class="mb-3">
+                <label for="login_email" class="form-label">Email</label>
+                <input type="email" id="login_email" class="form-control" required placeholder="Enter email">
+              </div>
+              <div class="mb-3">
+                <label for="login_pass" class="form-label">Password</label>
+                <input type="password" id="login_pass" class="form-control" required placeholder="Enter password">
+              </div>
+              <p class="modal_p">By continuing, I agree to the <span>T&C</span> and <span>Privacy Policy</span> of Vista Rooms.</p>
+              <button type="submit" class="c_button my-2">Continue</button>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-start ">
+            <p class="signup_P my-2">Don't have an account?<span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#SignupModal" data-bs-dismiss="modal"> SignUp</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- login modal end  -->
+
+    <!-- sign up modal start -->
+    <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content px-4">
+          <div class="modal-header border-0 px-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-0 ">
+            <h5 class="modal-title mb-3" id="exampleModalLabel">Join Vista Rooms</h5>
+            <p>*indicates mandatory field</p>
+            <form onsubmit="addUser(event)">
+              <div class="mb-3">
+                <label for="f_name" class="form-label">First Name*</label>
+                <input type="text" id="f_name" class="form-control" required placeholder="Enter your first name">
+              </div>
+              <div class="mb-3">
+                <label for="l_name" class="form-label">Last Name*</label>
+                <input type="text" id="l_name" class="form-control" required placeholder="Enter your last name">
+              </div>
+              <div class="mb-3">
+                <label for="mobile" class="form-label">Mobile Number*</label>
+                <input type="text" id="mobile" class="form-control" required placeholder="Enter your mobile number">
+              </div>
+              <div class="mb-3">
+                <label for="u_email" class="form-label">Email ID*</label>
+                <input type="email" id="u_email" class="form-control" required placeholder="Enter your email ID">
+              </div>
+              <div class="mb-3">
+                <label for="u_pass" class="form-label">Password*</label>
+                <input type="password" id="u_pass" class="form-control" required placeholder="Enter your password">
+              </div>
+              <div class="mb-3">
+                <label for="res_city" class="form-label">Residential City*</label>
+                <input type="text" id="res_city" class="form-control" required placeholder="Enter your residential city">
+              </div>
+              <p class="modal_p">By continuing, I agree to the <span>T&C</span> and <span>Privacy Policy</span> of Vista Rooms.</p>
+              <button type="submit" class="c_button my-2">Continue</button>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-start ">
+            <p class="signup_P my-2">Already have an account?<span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#LoginModal" data-bs-dismiss="modal"> Login</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sign up modal end -->
+    
+    <!-- carousel start  -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="1000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://img.vistarooms.com/angular_assets/common/home_page/home_carousel/Hero+Banner+1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="c_h2">HOLIDAY. HOME.</h2>
+              <p class="c_p">DISCOVER SUPERLATIVE VILLAS, LOCATIONS & SERVICES.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.vistarooms.com/angular_assets/common/home_page/home_carousel/Hero+Banner+2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="c_h2">WELCOME TO YOUR NEW</h2>
+              <h2 class="c_h2"> <span style="text-decoration: line-through;">HOME/OFFICE </span>  <span style="font-style: italic;"> Life…</span> </h2>
+              <p class="c_p">FIND YOUR KIND OF WORK-LIFE BALANCE.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.vistarooms.com/angular_assets/common/home_page/home_carousel/Hero+Banner+3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="c_h2">A NEW EVERYDAY</h2>
+              <h2 class="c_h2">BEGINS NOW.</h2>
+              <p class="c_p">CHECK IN TO SUN, SERENITY & SPLENDOUR.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container search-container-form ">
+      <div class="row search-info">
+        <div class="col-lg-4 form-group">
+          <label for="">Location</label>
+          <input
+              type="text"
+              class="w-100 text-start text-capitalize input-group-text"
+              placeholder="Shimla, Himachal Pradesh"
+            />
+        </div>
+        <div class="col-lg-4">
+          <label for="">Date</label>
+          <input
+            type="text"
+            placeholder="Check-in/Check-out"
+            class="w-100 text-start text-capitalize input-group-text"
+          />
+        </div>
+        <div class="col-lg-2">
+          <label for="">Guest</label>
+          <input
+              type="text"
+              name=""
+              class="w-100 text-start text-capitalize input-group-text"
+              id=""
+              placeholder="1 Guest"
+            />
+        </div>
+        <div class="col-lg-2 c_div">
+          <button class="c_button b_top">SEARCH</button>
+        </div>
+      </div>
+    </div>
+    <!-- carousel end  -->
+    <!-- section 2 city start -->
+    <section>
+      <div class="carousel-2">
+        <div class="text-center">
+          <h3 >Explore the finest Homes in the most Desirable Destinations</h3>
+          <p class="my-4">Skip the cookie-cutter hotel stays for the charm and warmth of our luxury holiday homes and personalized experiences. With over 500+ homes in 50+ destinations, invite you to experience the authenticity of India without compromising on hospitality.</p>
+        <div id="carouselExampleControls" data-interval="1000" class="carousel slide my-5" data-bs-ride="carousel">         
+          <div class="carousel-inner ci2">
+            <div class="carousel-item active">
+              <div class="w-100">
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10">
+                    <img src="https://img.vistarooms.com/angular_assets/common/home_page/Dubai/Desktop+dubai+carousel+.jpg" alt="..." class="city_image">
+                    <p class="city_name">Dubai</p>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10">
+                    <img src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Mumbai_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Mumbai</p>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10">
+                    <img src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Goa_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Goa</p>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10">
+                    <img src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Delhi_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Delhi</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100">
+                <div class="row text_align">
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Udaipur_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Udaipur</p>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Lonavala_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Lonavala</p>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Alibaug_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Alibaug</p>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Chail-Kasauli.jpg" alt="..." class="city_image">
+                    <p class="city_name">Chail-Kasauli</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100">
+                <div class="row text_align">
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Nashik_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Nashik</p>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="	https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Coorg_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Coorg</p>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Dehradun_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Dehradun-Mussoorie</p>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Jaipur_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Jaipur</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100">
+                <div class="row text_align">
+                  <div  class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="	https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Ooty.jpg" alt="..." class="city_image">
+                    <p class="city_name">Ooty</p>
+                  </div>
+                  <div  class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="	https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/pune.jpg" alt="..." class="city_image">
+                    <p class="city_name">Pune</p>
+                  </div>
+                  <div  class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="	https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Nainital_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Nainital</p>
+                  </div>
+                  <div  class="col-lg-3 col-md-3 col-sm-3 col-10 ">
+                    <img src="	https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Mahabaleshwar_1.jpg" alt="..." class="city_image">
+                    <p class="city_name">Mahabaleshwar</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="carousel-indicators ci1">
+            <li data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="indicators active" id="indicator1"></li>
+            <li data-bs-target="#carouselExampleControls" data-bs-slide-to="1" class="indicators" id="indicator2"></li>
+            <li data-bs-target="#carouselExampleControls" data-bs-slide-to="2" class="indicators" id="indicator3"></li>
+            <li data-bs-target="#carouselExampleControls" data-bs-slide-to="3" class="indicators" id="indicator4"></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 2 city end -->
+
+    <!-- 3rd start  -->
+    <section id="dubai-x">
+      <img src="https://img.vistarooms.com/angular_assets/common/home_page/Dubai/desktop+dubai+banner+homepage.jpg"
+          alt="">
+    </section>
+    <section id="Vista-Feature">
+        <h1>Why Choose Vista for your Ideal Getaway</h1>
+        <div class="feature-flex">
+            <div class="feature">
+                <div>
+                    <img src="https://img.vistarooms.com/angular_assets/desktop/images/Only+1+in+100+Homes++are+Selected.svg"
+                        alt="">
+                </div>
+                <div>
+                    <p>Only 1 in 50 homes are accepted</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div>
+                    <img src="https://www.vistarooms.com/assets/desktop/images/500%20Handpicked%20homes%20across%20India.svg"
+                        alt="">
+                </div>
+                <div>
+                    <p>500+ Handpicked homes across India</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div>
+                    <img src="https://www.vistarooms.com/assets/desktop/images/Hosted%20over%20250,000%20happy%20guests.svg"
+                        alt="">
+                </div>
+                <div>
+                    <p>Hosted over 250,000+ happy guests</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div>
+                    <img src="https://www.vistarooms.com/assets/desktop/images/Homes%20are%20regularly%20audited%20for%20200%20factors.svg"
+                        alt="">
+                </div>
+                <div>
+                    <p>Homes are regularly audited for 200+ factors</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div>
+                    <img src="https://img.vistarooms.com/angular_assets/desktop/images/We+empower+the++local+community.svg"
+                        alt="">
+                </div>
+                <div>
+                    <p>We empower the local community</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faltu-details">
+        <h1>Our Featured Holiday Homes</h1>
+        <p>We carefully handpick and manage all our homes, to ensure you have a hassle-free, pleasant stay.</p>
+    </section>
+    <section id="homepagegrid">
+      <div class="card-x" id="content-1">
+          <img src="https://img.vistarooms.com/gallery/amara-villa-6b8218.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+              <div>
+                  <h4>Amara Villa</h4>
+                  <p>Alibaug, MH</p>
+              </div>
+              <div>
+                  <p>Per Night</p>
+                  <h6>₹67,000</h6>
+              </div>
+          </div>
+      </div>
+      <div class="card-x" id="content-2">
+          <img src="https://img.vistarooms.com/gallery/casa-sol-one-70fea0.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+              <div>
+                  <h4>Casa De Jao</h4>
+                  <p>Nerul, Goa</p>
+              </div>
+              <div>
+                  <p>Per Night</p>
+                  <h6>₹61,000</h6>
+              </div>
+          </div>
+      </div>
+      <div class="card-x" id="content-3">
+          <img src="https://img.vistarooms.com/angular_assets/common/property_grid/casa-ela-11-f23935.jpg"
+              alt="Avatar" class="image">
+          <div class="overlay">
+              <div>
+                  <h4>Casa ela 11</h4>
+                  <p>Lonavala, MH</p>
+              </div>
+              <div>
+                  <p>Per Night</p>
+                  <h6>₹20,750</h6>
+              </div>
+          </div>
+      </div>
+      <div class="card-x" id="content-4">
+          <img src="https://img.vistarooms.com/angular_assets/common/property_grid/open-house-f831ee.webp"
+              alt="Avatar" class="image">
+          <div class="overlay">
+              <div>
+                  <h4>Open House</h4>
+                  <p>Pune, MH</p>
+              </div>
+              <div>
+                  <p>Per Night</p>
+                  <h6>₹19,250</h6>
+              </div>
+          </div>
+      </div>
+      <div class="card-x" id="content-5">
+          <img src="https://img.vistarooms.com/angular_assets/common/property_grid/pranaam-4ea2cb.webp" alt="Avatar"
+              class="image">
+          <div class="overlay">
+              <div>
+                  <h4>Pranaam</h4>
+                  <p>Alibaug, MH</p>
+              </div>
+              <div>
+                  <p>Per Night</p>
+                  <h6>₹45,500</h6>
+              </div>
+          </div>
+      </div>
+      <div class="card-x" id="content-6">
+          <img src="https://img.vistarooms.com/gallery/mr-lonandkars-villa-adc256.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+              <div>
+                  <h4>The Mansion</h4>
+                  <p>Kasaul, HP</p>
+              </div>
+              <div>
+                  <p>Per Night</p>
+                  <h6>₹28,000</h6>
+              </div>
+          </div>
+      </div>
+      <div class="card-x" id="content-7">
+          <img src="https://img.vistarooms.com/gallery/i0akabtcmnavv7hodwuq.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+              <div>
+                  <h4>The rain</h4>
+                  <p>Allepey, Kerela</p>
+              </div>
+              <div>
+                  <p>Per Night</p>
+                  <h6>₹39,000</h6>
+              </div>
+          </div>
+      </div>
+      <div class="card-x" id="content-8">
+          <img src="https://img.vistarooms.com/angular_assets/common/property_grid/umber-villa-d0e570.webp"
+              alt="Avatar" class="image">
+          <div class="overlay">
+              <div>
+                  <h4>Umber Villa</h4>
+                  <p>Alibaug, MH</p>
+              </div>
+              <div>
+                  <p>Per Night</p>
+                  <h6>₹67,375</h6>
+              </div>
+          </div>
+      </div>
+      <div class="card-x" id="content-9">
+          <img src="https://img.vistarooms.com/angular_assets/common/property_grid/the-winter-line-6554e0.webp"
+              alt="Avatar" class="image">
+          <div class="overlay">
+              <div>
+                  <h4>The winter Line</h4>
+                  <p>Kasaul, HP</p>
+              </div>
+              <div>
+                  <p>Per Night</p>
+                  <h6>₹25,000</h6>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- 3rd end  -->
+
+
+    <!-- section 5 start  -->
+    <section>
+      <div class="carousel-2 mt-4">
+        <div class="text-center">
+          <h3 class="mt-5">We'll Spoil You For Choice</h3>
+          <p class="my-3">Whether you're looking for a spacious villa for a big group celebration, a romantic getway for a couple or a
+            peaceful place to sneak away from the hustle-bustle of city life, we've got something for everyone.</p>
+        <div id="carouselExampleControls2" data-interval="1000" class="carousel slide my-5" data-bs-ride="carousel">         
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="w-100">
+                <div class="row">
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/41+Paris+villa_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Paris Villa</h5>
+                        <p class="my-2" style="font-size: 14px;">Kasauli, Himachal Pradesh</p>
+                        <h6>French Interiors | 3 Bedrooms</h6>
+                        <hr>
+                        <p class="my-2">₹ 24,000 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                   <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/05+Villa+Kinara_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Villa Kinara</h5>
+                        <p class="my-2" style="font-size: 14px;">Reis Magos, Goa</p>
+                        <h6> BBQ & Bonfire | 4 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 61,000 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                    <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/06+Ashore_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Ashore</h5>
+                        <p class="my-2" style="font-size: 14px;">Morjim, Goa</p>
+                        <h6> Infinity Pool | 6 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 67,000 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100">
+                <div class="row">
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/35+Villa+Meer_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Villa Meer</h5>
+                        <p class="my-2" style="font-size: 14px;">Nashik, Maharashtra</p>
+                        <h6> Picturesque View | 6 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 46,000 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                   <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/30+The+Beach+house_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">The Beach House</h5>
+                        <p class="my-2" style="font-size: 14px;">Alibaug, Maharashtra</p>
+                        <h6> Proximity To Beach | 3 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 34,000 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                    <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/28+El+house_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">EI House</h5>
+                        <p class="my-2" style="font-size: 14px;">Nashik, Maharashtra</p>
+                        <h6> Artistic Interiors | 4 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 46,000 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100">
+                <div class="row">
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/42+Nirvana+Orchards_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Nirvana Orchards</h5>
+                        <p class="my-2" style="font-size: 14px;">Dehradun, Uttarakhand</p>
+                        <h6> Sprawling Orchards | 3 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 25,000 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                   <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/33+The+Banyan+abode_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">The Banyan Abode</h5>
+                        <p class="my-2" style="font-size: 14px;">Manesar, Haryana</p>
+                        <h6> Lawn & Gazebo | 6 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 45,500 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                    <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/31+Ruhaniyat_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Ruhaniyat</h5>
+                        <p class="my-2" style="font-size: 14px;">Chandigarh, Punjab</p>
+                        <h6>  Pool & Jacuzzi | 4 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 27,400 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100">
+                <div class="row">
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/52+Silver+Mist_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                       <h5 class="card-title">Silver Mist</h5>
+                        <p class="my-2" style="font-size: 14px;">Ooty, Tamil Nadu</p>
+                        <h6> Library & Games | 3 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 17,500 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                   <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/51+Mynaakom_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                       <h5 class="card-title">Mynaakom</h5>
+                        <p class="my-2" style="font-size: 14px;">Thekkady, Karnataka</p>
+                        <h6> Gazebo & Views | 3 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 19,400 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-3 col-10 ">
+                    <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/static_prop/37+Springhills+villa+_+ayurvedic+Spa_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                       <h5 class="card-title">Springhills Villa & Ayurvedic Spa</h5>
+                        <p class="my-2" style="font-size: 14px;">Kochi, Kerala</p>
+                        <h6> Ayurvedic Spa | 6 Bedrooms </h6>
+                        <hr>
+                        <p class="my-2">₹ 19,000 / night</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="carousel-indicators ci1">
+            <li data-bs-target="#carouselExampleControls2" data-bs-slide-to="0" class="indicators active" id="indicator1"></li>
+            <li data-bs-target="#carouselExampleControls2" data-bs-slide-to="1" class="indicators" id="indicator2"></li>
+            <li data-bs-target="#carouselExampleControls2" data-bs-slide-to="2" class="indicators" id="indicator3"></li>
+            <li data-bs-target="#carouselExampleControls2" data-bs-slide-to="3" class="indicators" id="indicator4"></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 5 end  -->
+
+    <!-- section 6 start -->
+    <section class="section-6">
+      <div class="carousel-3 mt-4 section-6">
+        <div class="text-center">
+          <h3 class="mt-5">Great Minds Think Alike</h3>
+          <p class="my-3">From TV and film celebrities to social media influencers and business achievers, we are the go-to holiday partners for some of the biggest names across industries, for their weekend getaways, short staycations, celebrations and more.</p>
+        <div id="carouselExampleControls3" data-interval="1000" class="carousel slide my-5" data-bs-ride="carousel">         
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="w-100">
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/6.+Tara%20Sutaria.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Tara Sutaria</h5>
+                        <p class="my-2" style="font-size: 14px;">Casa Del Palms , Alibaug</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/1.+Poppy+Jabbal,+Simmran+Kaur+and+Sonnalli+Seygall.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Poppy Jabbal, Simmran...</h5>
+                        <p class="my-2" style="font-size: 14px;">Bella Corona , Goa</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                   <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/2.+Dheeraj+Dhoopar+and+Vinny+Arora.jpg" class="card-img-top img-fluid" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Dheeraj Dhoopar, Vinny...</h5>
+                        <p class="my-2" style="font-size: 14px;">The G Coast Villa , Alibaug</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/3.+MJ+5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">MJ5-Dance Video</h5>
+                        <p class="my-2" style="font-size: 14px;">Casa Lake View , Nashik</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100">
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/4.+Malvika+Sitlani.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Malvika Sitlani-Bachelor..</h5>
+                        <p class="my-2" style="font-size: 14px;">Bella Canis , Goa</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/5.+Nupur+Singh.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Nupur Singh-Getaway</h5>
+                        <p class="my-2" style="font-size: 14px;">La Bougainevilla , Goa</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                   <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/4.jpg" class="card-img-top img-fluid" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Anita Hassanandani...</h5>
+                        <p class="my-2" style="font-size: 14px;">Princess Vista , Pawna</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/8.+Gurmeet+Choudhary+and+Debina+Bonnerjee.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Gurmeet and Debina...</h5>
+                        <p class="my-2" style="font-size: 14px;">EL House , Lonavala</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100">
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/9.+Ahana+Kumra.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Ahana Kumra-Family...</h5>
+                        <p class="my-2" style="font-size: 14px;">Ahana Kumra-Family Vacation</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/17.+Kanan+Gill.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Kanan Gill</h5>
+                        <p class="my-2" style="font-size: 14px;">Short staycation , Aldaemar</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                   <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/11.+Santoshi+Shetty.jpg" class="card-img-top img-fluid" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Santoshi Shetty - For...</h5>
+                        <p class="my-2" style="font-size: 14px;">Villa41</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/12.+Parineeti+Chopra.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Parineeti Chopra- For her...</h5>
+                        <p class="my-2" style="font-size: 14px;">Moksh Villa, Alibaug</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-100">
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/14.+Bhumi+Pednekar.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Bhumi Pednekar - New...</h5>
+                        <p class="my-2" style="font-size: 14px;">Casa Del Palms , Alibaug</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card">
+                      <img src="https://img.vistarooms.com/angular_assets/common/13.+Sanaya+Irani+and+Mohit+Sehgal.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Poppy Jabbal, Simmran...</h5>
+                        <p class="my-2" style="font-size: 14px;">Bella Corona , Goa</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                   <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/15.+Aakriti+Rana.jpg" class="card-img-top img-fluid" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Aakriti Rana - Quick... </h5>
+                        <p class="my-2" style="font-size: 14px;">Villa Irene , Goa</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-10 ">
+                    <div class="card" >
+                      <img src="https://img.vistarooms.com/angular_assets/common/16.+Shreya+Ghoshal.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Shreya Ghoshal- Family...</h5>
+                        <p class="my-2" style="font-size: 14px;">Jal By the Bay</p>
+                        <button class="view_btn mt-2">View Property</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="carousel-indicators ci1">
+            <li data-bs-target="#carouselExampleControls3" data-bs-slide-to="0" class="indicators active" id="indicator1"></li>
+            <li data-bs-target="#carouselExampleControls3" data-bs-slide-to="1" class="indicators" id="indicator2"></li>
+            <li data-bs-target="#carouselExampleControls3" data-bs-slide-to="2" class="indicators" id="indicator3"></li>
+            <li data-bs-target="#carouselExampleControls3" data-bs-slide-to="3" class="indicators" id="indicator4"></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 6 end -->
+
+    <!-- section 7 start  -->
+    <section class="section-7">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2"><img src="https://img.vistarooms.com/angular_assets/common/press-media/press-media1.jpg" alt=""></div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="https://img.vistarooms.com/angular_assets/common/press-media/press-media2.jpg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="https://img.vistarooms.com/angular_assets/common/press-media/press-media3.jpg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="https://img.vistarooms.com/angular_assets/common/press-media/press-media4.jpg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="https://img.vistarooms.com/angular_assets/common/press-media/press-media5.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 7 end  -->
+
+    <!-- Footer start  -->
+    <section class="mt-5" style="background-color: #F9F9F9; border-bottom: 1px solid #00000014;">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <!-- p1-16-redhat-medium -->
+                      <li class="">
+                          <h6 class="mt-4 pt-4"> POPULAR DESTINATION TO RENT A HOLIDAY HOME IN INDIA </h6>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row mt-2 pb-3">
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="">Bungalows in Lonavala</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href=""> Bungalows in Igatpuri</a>
+                      </li>
+                      <li class="mt-3">
+                          <a href="" target="_blank"  class="">Bungalows in Alibaug</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Bungalows in Karjat</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Bungalows in Ahmedabad</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="">Cottages in Manali</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Cottages in Mussoorie</a>
+                      </li>
+                      <li class="mt-3">
+                          <a href="" target="_blank"  class="">Cottages in Shimla</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Cottages in Coorg</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Cottages in Wayanad</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="">Luxury Villas in Bangalore</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Luxury villas in Kochi</a>
+                      </li>
+                      <li class="mt-3">
+                          <a href="" target="_blank"  class="">Luxury Villas in Goa</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Luxury Villas in Chennai</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Luxury Villas in Kasauli</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="">Homestay in Ooty</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Homestay in Kodaikanal</a>
+                      </li>
+                      <li class="mt-3">
+                          <a href="" target="_blank"  class="">Homestay in Jaipur</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Homestay in Udaipur</a>
+                      </li>
+                      <li class="mt-3">
+                          <a target="_blank" class="" href="">Homestay in Gangtok</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </div>
+    </section>
+    <section class="main-footer" style="background-color: #F9F9F9; border-bottom: 1px solid #00000014;">
+      <div class="container">
+          <div class="row pt-30 pb-35">
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="custom_links">
+                          <a>QUICK LINKS</a>
+                      </li>
+                  </ul>
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="/offers">Offers</a>
+                      </li>
+                      <li class="mt-2">
+                          <a target="_blank" class="" href="/faq"> FAQs</a>
+                      </li>
+                      <li class="mt-2">
+                          <a href="https://www.vistarooms.com/blog/" target="_blank" rel="noopener" class="">Blogs</a>
+                      </li>
+                      <li class="mt-2">
+                          <a target="_blank" class="" href="/termsofservices">Terms &amp; Services</a>
+                      </li>
+                      <li class="mt-2">
+                          <a target="_blank" class="" href="/sitemap">Sitemap</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <!-- p1-16-redhat-medium -->
+                      <li class="custom_links">
+                          <a>CONTACT US</a>
+                      </li>
+                  </ul>
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="/partner-with-us">Partner With Us</a>
+                      </li>
+                      <li class="mt-2">
+                          <a target="_blank" class="" href="/connect-with-us">Connect With Us</a>
+                      </li>
+                      <li class="mt-2">
+                          <a href="mailto:partnership@vistarooms.com" class="">partnership@vistarooms.com</a>
+                      </li>
+                      <li class="mt-2">
+                          <a href="mailto:stay@vistarooms.com" class="">stay@vistarooms.com</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="custom_links">
+                          <a>VISTA CULTURE</a>
+                      </li>
+                  </ul>
+                  <ul class="footer-ul" style="list-style: none;">
+                      <li class="">
+                          <a target="_blank" class="" href="/about-us">About us</a>
+                      </li>
+                      <li class="mt-2">
+                          <a target="_blank" class="" href="/join-us">Join Us</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                  
+              </div>
+          </div>
+      </div>
+    </section>
+<!-- © 2021 Stay Vista Pvt. Ltd. All rights reserved -->
+    <footer>
+      <section id="last-section-pink">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 pt-2">
+                    <h6 class=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2021 Stay Vista Pvt. Ltd. All rights reserved</h6>
+                </div>
+                <div class="col-6" style="text-align: end;">
+                    <a href="https://www.instagram.com/vistarooms/" target="_blank">
+                        <button class="btn scroll-btn">
+                            <i class="fa fa-instagram"></i>
+                        </button>
+                    </a>
+                    <a href="https://twitter.com/Vista_Rooms" target="_blank">
+                        <button class="btn scroll-btn">
+                            <i class="fa fa-twitter"></i>
+                        </button>
+                    </a>
+                    <a href="https://www.facebook.com/vistarooms/" target="_blank">
+                        <button class="btn scroll-btn">
+                            <i class="fa fa-facebook-f"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Footer end  -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/Js/bootnavbar.js"></script>
+    <script src="/Js/loginsignup.js"></script>
+  </body>
+  <script>
+    new bootnavbar();
+  </script>
+</html>
